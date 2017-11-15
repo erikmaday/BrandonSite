@@ -13,7 +13,7 @@ body { position: absolute; }
 .slide {
     background-image:url('../../../assets/homeImage.jpg');
     max-height: 100vh;
-    min-width: 84vw;
+    min-width: 100vw;
     background-attachment: scroll;
     background-position: center;
     background-repeat: repeat;
@@ -25,25 +25,25 @@ body { position: absolute; }
 }
 
 .blurred-bg-1{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
   background-repeat:repeat;
 	/*@include background-size(cover);*/
 	background-attachment: scroll;
 }
 
 .box{
-  padding-top:5vh;
 	width:auto;
   height: auto;
 	position:relative;
 	border-radius:5px;
 	@include box-shadow(0 20px 30px rgba(0,0,0,.6));
 	border:1px solid rgba(255,255,255,.3);
-	padding:20px;
 	text-align: center;
 	@include box-sizing(border-box);
 	text-shadow:0 1px 1px rgba(0,0,0,.4);
   display: inline-flex;
+  margin-top: 3vh;
+  margin-left: 5vw;
   transition: box-shadow .3s ease;
   overflow: auto;
 	&:active{
@@ -60,6 +60,7 @@ body { position: absolute; }
   .box {
     max-width: 90vw;
     max-height: 100vh;
+    margin-right: 15w;
     overflow: auto;
   }
   .content {
@@ -103,5 +104,15 @@ p{
 
 .goLeft, li {
   text-align: left;
+  font-size: 17px;
+  font-weight: 200;
 }
 /*th, td { resize: both; overflow: auto; }*/
+h1 {
+  color : white;
+  font-weight: 300;
+}
+p, td, tr{
+  font-size: 17px;
+  font-weight: 200;
+}

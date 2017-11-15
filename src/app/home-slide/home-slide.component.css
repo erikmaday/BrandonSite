@@ -4,6 +4,12 @@
   padding-top:5vh;
 }
 
+#box1 {
+  position: relative;
+  float: left;
+  margin-left: 5%;
+}
+
 #box2 {
   position: relative;
   float: right;
@@ -12,7 +18,7 @@
 .slide {
     background-image:url('../../assets/homeImage.jpg');
     min-height: 100vh;
-    min-width: 84vw;
+    min-width: 100vw;
     background-attachment: scroll;
     background-position: center;
     background-repeat: repeat;
@@ -104,4 +110,13 @@ p{
       }
     }
   }
+}
+
+h1 {
+  color : white;
+  font-weight: 300;
+}
+p{
+  font-size: 17px;
+  font-weight: 200;
 }

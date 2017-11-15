@@ -10,7 +10,7 @@
 .slide {
     background-image:url('../../assets/homeImage.jpg');
     min-height: 100vh;
-    min-width: 84vw;
+    min-width: 100vw;
     background-attachment: scroll;
     background-position: center;
     background-repeat: repeat;
@@ -96,4 +96,19 @@ p{
 
 .fa-file-text {
   color: white;
+}
+
+.goLeft , li{
+  font-size: 17px;
+  font-weight: 200;
+  text-align: left;
+}
+
+h1 {
+  color : white;
+  font-weight: 300;
+}
+p, a{
+  font-size: 17px;
+  font-weight: 200;
 }

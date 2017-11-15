@@ -10,7 +10,7 @@
 .slide {
     background-image:url('../../assets/homeImage.jpg');
     min-height: 100vh;
-    min-width: 84vw;
+    min-width: 100vw;
     background-attachment: scroll;
     background-position: center;
     background-repeat: repeat;
@@ -31,6 +31,8 @@
 	width:auto;
 	height:auto;
 	position:relative;
+  margin-top: 7vh;
+  margin-left: 10vw;
 	border-radius:5px;
 	@include box-shadow(0 20px 30px rgba(0,0,0,.6));
 	border:1px solid rgba(255,255,255,.3);
@@ -100,5 +102,20 @@ p{
 }
 
 .goLeft , li{
+  font-size: 17px;
+  font-weight: 200;
   text-align: left;
+}
+
+h1 {
+  color : white;
+  font-weight: 300;
+}
+p{
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.img-responsive {
+  min-width: 100%;
 }

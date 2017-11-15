@@ -4,56 +4,56 @@
     </i>
     <div class="menu-list">
         <ul id="menu-content" class="menu-content collapse out active">
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a routerLink="/">
                     <i class="fa fa-home fa-lg"></i> Home
                 </a>
             </li>
-            <li data-toggle="collapse" data-target="#about" class="collapsed">
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" data-toggle="collapse" data-target="#about" class="collapsed">
                 <a routerLink="/about-us">
                   <i class="fa fa-info-circle fa-lg"></i> About Us<i class="fa fa-chevron-down"></i>
 
                 </a>
             </li>
             <ul class="sub-menu collapse" id="about">
-                <li><a routerLink="/btsoverview">BTS Overview</a></li>
-                <li><a routerLink="/who-we-serve">Who We Serve</a></li>
-                <li><a routerLink="/transactions">Transaction Experience</a></li>
-                <li><a routerLink="/why-hire-us">Why Hire Us</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/btsoverview">BTS Overview</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/who-we-serve">Who We Serve</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/transactions">Transaction Experience</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/why-hire-us">Why Hire Us</a></li>
             </ul>
 
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a routerLink="advisors">
                     <i class="fa fa-users fa-lg"></i> Our Advisors
                 </a>
             </li>
 
-            <li data-toggle="collapse" data-target="#process" class="collapsed">
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" data-toggle="collapse" data-target="#process" class="collapsed">
                 <a routerLink="/process">
                   <i class="fa fa-bar-chart fa-lg"></i> Our Process<i class="fa fa-chevron-down"></i>
                 </a>
             </li>
             <ul class="sub-menu collapse" id="process">
-                <li><a routerLink="phase1">Phase 1 - Preparation</a></li>
-                <li><a routerLink="phase2">Phase 2 - Business Selection</a></li>
-                <li><a routerLink="phase3">Phase 3 - Business Acquisition</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="phase1">Phase 1 - Preparation</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="phase2">Phase 2 - Business Selection</a></li>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="phase3">Phase 3 - Business Acquisition</a></li>
             </ul>
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a routerLink="/testimonials">
                     <i class="fa fa-comments-o fa-lg"></i> Testimonials
                 </a>
             </li>
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a routerLink="/news">
                     <i class="fa fa-newspaper-o fa-lg"></i> In The News
                 </a>
             </li>
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a routerLink="/resources">
                     <i class="fa fa-tint fa-lg"></i> Resources
                 </a>
             </li>
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a routerLink="/contactus">
                     <i class="fa fa-phone fa-lg"></i> Contact Us
                 </a>
