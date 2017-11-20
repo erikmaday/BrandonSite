@@ -44,6 +44,8 @@ body { position: absolute; }
 	@include box-sizing(border-box);
 	text-shadow:0 1px 1px rgba(0,0,0,.4);
   display: inline-flex;
+  margin-top: 3vh;
+  margin-left: 8vw;
   transition: box-shadow .3s ease;
   overflow: auto;
 	&:active{
