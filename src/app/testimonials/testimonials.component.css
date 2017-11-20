@@ -41,6 +41,8 @@ body { position: absolute; }
 	border:1px solid rgba(255,255,255,.3);
 	padding:20px;
 	text-align: center;
+  margin-top: 3vh;
+  margin-left: 5vw;
 	@include box-sizing(border-box);
 	text-shadow:0 1px 1px rgba(0,0,0,.4);
   display: inline-flex;
@@ -60,6 +62,7 @@ body { position: absolute; }
   .box {
     max-width: 90vw;
     max-height: 100vh;
+    margin-right: 8vw;
     overflow: auto;
   }
   .content {
@@ -101,11 +104,12 @@ p{
   }
 }
 
-.goLeft , li{
+.goLeft, li {
   font-size: 17px;
   font-weight: 200;
   text-align: left;
 }
+/*th, td { resize: both; overflow: auto; }*/
 
 h1 {
   color : white;
@@ -115,7 +119,5 @@ p, a{
   font-size: 17px;
   font-weight: 200;
 }
-
-
 
 /*th, td { resize: both; overflow: auto; }*/

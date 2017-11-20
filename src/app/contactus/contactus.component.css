@@ -41,6 +41,8 @@ body { position: absolute; }
 	border:1px solid rgba(255,255,255,.3);
 	padding:20px;
 	text-align: center;
+  margin-top: 5vh;
+  margin-left: 10vw;
 	@include box-sizing(border-box);
 	text-shadow:0 1px 1px rgba(0,0,0,.4);
   display: inline-flex;
@@ -61,6 +63,7 @@ body { position: absolute; }
     max-width: 90vw;
     max-height: 100vh;
     overflow: auto;
+    margin-left: 5vw;
   }
   .content {
     overflow: auto;
