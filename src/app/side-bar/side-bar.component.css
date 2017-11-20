@@ -1,3 +1,17 @@
+
+img {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+@media(max-width: 767px) {
+  img {
+    max-height: 45%;
+    max-width: 45%;
+  }
+}
+
+
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;
