@@ -107,11 +107,11 @@ h3 {
   text-align: left;
 }
 
-h1 {
+h1, h3 {
   color : white;
   font-weight: 300;
 }
-p, a{
+p{
   font-size: 17px;
   font-weight: 200;
 }

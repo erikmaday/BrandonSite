@@ -63,6 +63,7 @@ body { position: absolute; }
     max-width: 90vw;
     max-height: 100vh;
     overflow: auto;
+    margin-right: 4vw;
   }
   .content {
     overflow: auto;

@@ -3,7 +3,6 @@
   float: left;
   padding-top:5vh;
   margin-top: auto;
-  margin-bottom: auto;
   display: block;
 }
 
@@ -17,6 +16,7 @@
     background-size: cover;
     justify-content: center;
     position:relative;
+    padding-bottom: 5%;
 }
 
 .blurred-bg-1{
@@ -28,7 +28,7 @@
 
 .box{
 	width:auto;
-  margin-top: 7vh;
+  margin-top: 2vh;
   margin-left: 10vw;
 	height:auto;
 	position:relative;
